@@ -17,7 +17,7 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageview"
+            android:id="@+id/imageviewCard"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textview"
+            android:id="@+id/textviewCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="48dp"
@@ -36,8 +36,8 @@
             android:textColor="@color/black"
             android:textSize="48dp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/imageview"
-            app:layout_constraintTop_toTopOf="@+id/imageview" />
+            app:layout_constraintStart_toStartOf="@+id/imageviewCard"
+            app:layout_constraintTop_toTopOf="@+id/imageviewCard" />
 
 
 
